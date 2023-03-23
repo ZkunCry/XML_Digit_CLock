@@ -1,0 +1,15 @@
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\bin\Debug\netstandard2.0\testxamarin.deps.json
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\bin\Debug\netstandard2.0\testxamarin.dll
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\bin\Debug\netstandard2.0\ref\testxamarin.dll
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\bin\Debug\netstandard2.0\testxamarin.pdb
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\testxamarin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\testxamarin.AssemblyInfoInputs.cache
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\testxamarin.AssemblyInfo.cs
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\testxamarin.csproj.CoreCompileInputs.cache
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\testxamarin.dll
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\ref\testxamarin.dll
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\testxamarin.pdb
+C:\Users\Eugene\source\repos\testxamarin\testxamarin\testxamarin\obj\Debug\netstandard2.0\testxamarin.csproj.AssemblyReference.cache

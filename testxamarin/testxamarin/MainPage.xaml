@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="testxamarin.MainPage"   
+           >
+    <Grid RowSpacing="0" ColumnSpacing="7"  Margin="10" BackgroundColor="Bisque">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="60*" />
+
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="60*" />
+
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="60*" />
+
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="60*" />
+
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="60*" />
+
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="60*" />
+
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="60*" />
+
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="200*" />
+            <ColumnDefinition Width="60*" />
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5" />
+            <RowDefinition Height="55" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="55" />
+            <RowDefinition Height="5" />
+        </Grid.RowDefinitions>
+        <!--Заполнение первой строки семисегментного индикатора-->
+        <!--Row 0 Col 0-2-->
+        <BoxView  Grid.Row="0" Grid.Column="0"  ></BoxView>
+        <BoxView Color="LightGray" Grid.Row="0" Grid.Column="1" ></BoxView>
+        <BoxView  Grid.Row="0" Grid.Column="2" ></BoxView>
+        <!--Row 0 Col 3-5-->
+        <BoxView  Grid.Row="0" Grid.Column="3"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="0" Grid.Column="4"></BoxView>
+        <BoxView  Grid.Row="0" Grid.Column="5"></BoxView>
+
+        <BoxView Grid.Row="0" Grid.Column="6"></BoxView>
+        <BoxView   Grid.Row="0" Grid.Column="7"></BoxView>
+        <BoxView Grid.Row="0" Grid.Column="8"></BoxView>
+
+        <BoxView  Grid.Row="0" Grid.Column="9"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="0" Grid.Column="10"></BoxView>
+        <BoxView Grid.Row="0" Grid.Column="11"></BoxView>
+
+        <BoxView  Grid.Row="0" Grid.Column="12"></BoxView>
+        <BoxView  Color="LightGray" Grid.Row="0" Grid.Column="13"></BoxView>
+        <BoxView  Grid.Row="0" Grid.Column="14"></BoxView>
+
+        <BoxView  Grid.Row="0" Grid.Column="15"></BoxView>
+        <BoxView  Grid.Row="0" Grid.Column="16"></BoxView>
+        <BoxView  Grid.Row="0" Grid.Column="17"></BoxView>
+
+        <BoxView Grid.Row="0" Grid.Column="18"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="0" Grid.Column="19"></BoxView>
+        <BoxView  Grid.Row="0" Grid.Column="20"></BoxView>
+
+        <BoxView  Grid.Row="0" Grid.Column="21"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="0" Grid.Column="22"></BoxView>
+        <BoxView  Grid.Row="0" Grid.Column="23"></BoxView>
+        <!--Конец первой строки-->
+        <BoxView Color="Green" Grid.Row="1" Grid.Column="0"></BoxView>
+        <BoxView  Grid.Row="1" Grid.Column="1"></BoxView>
+        <BoxView Color="Green" Grid.Row="1" Grid.Column="2"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="3"></BoxView>
+        <BoxView  Grid.Row="1" Grid.Column="4"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="5"></BoxView>
+
+        <BoxView  Grid.Row="1" Grid.Column="6"></BoxView>
+        <BoxView  Color="Red" Grid.Row="1" Grid.Column="7"></BoxView>
+        <BoxView  Grid.Row="1" Grid.Column="8"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="9"></BoxView>
+        <BoxView  Grid.Row="1" Grid.Column="10"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="11"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="12"></BoxView>
+        <BoxView  Grid.Row="1" Grid.Column="13"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="14"></BoxView>
+        
+        <BoxView  Grid.Row="1" Grid.Column="15"></BoxView>
+        <BoxView Color="Red" Grid.Row="1" Grid.Column="16"></BoxView>
+        <BoxView  Grid.Row="1" Grid.Column="17"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="18"></BoxView>
+        <BoxView  Grid.Row="1" Grid.Column="19"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="20"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="21"></BoxView>
+        <BoxView  Grid.Row="1" Grid.Column="22"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="1" Grid.Column="23"></BoxView>
+
+        <!--Заполнение второй строки семисегментного индикатора-->
+        <BoxView  Grid.Row="2" Grid.Column="0"></BoxView>
+        <BoxView Color="Green" Grid.Row="2" Grid.Column="1"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="2"></BoxView>
+        
+        
+        <BoxView  Grid.Row="2" Grid.Column="3"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="2" Grid.Column="4"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="5"></BoxView>
+
+        <BoxView  Grid.Row="2" Grid.Column="6"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="7"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="8"></BoxView>
+
+        <BoxView  Grid.Row="2" Grid.Column="9"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="2" Grid.Column="10"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="11"></BoxView>
+
+        <BoxView  Grid.Row="2" Grid.Column="12"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="2" Grid.Column="13"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="14"></BoxView>
+
+        <BoxView  Grid.Row="2" Grid.Column="15"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="16"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="17"></BoxView>
+
+        <BoxView  Grid.Row="2" Grid.Column="18"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="2" Grid.Column="19"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="20"></BoxView>
+
+        <BoxView  Grid.Row="2" Grid.Column="21"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="2" Grid.Column="22"></BoxView>
+        <BoxView  Grid.Row="2" Grid.Column="23"></BoxView>
+
+        <!--Row 3 Col 0-3-->
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="0"></BoxView>
+        <BoxView  Grid.Row="3" Grid.Column="3"></BoxView>
+        <BoxView Color="Green" Grid.Row="3" Grid.Column="2"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="3"></BoxView>
+        <BoxView  Grid.Row="3" Grid.Column="3"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="5"></BoxView>
+
+        <BoxView  Grid.Row="3" Grid.Column="6"></BoxView>
+        <BoxView Color="Red" Grid.Row="3" Grid.Column="7"></BoxView>
+        <BoxView  Grid.Row="3" Grid.Column="8"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="9"></BoxView>
+        <BoxView  Grid.Row="3" Grid.Column="10"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="11"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="12"></BoxView>
+        <BoxView  Grid.Row="3" Grid.Column="13"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="14"></BoxView>
+
+        <BoxView  Grid.Row="3" Grid.Column="15"></BoxView>
+        <BoxView Color="Red" Grid.Row="3" Grid.Column="16"></BoxView>
+        <BoxView  Grid.Row="3" Grid.Column="17"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="18"></BoxView>
+        <BoxView  Grid.Row="3" Grid.Column="19"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="20"></BoxView>
+
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="21"></BoxView>
+        <BoxView  Grid.Row="3" Grid.Column="22"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="3" Grid.Column="23"></BoxView>
+
+
+        <!--Конец-->
+
+        <!--Row 4 Col 0-5-->
+        <BoxView  Grid.Row="4" Grid.Column="0"></BoxView>
+        <BoxView  Color="LightGray" Grid.Row="4" Grid.Column="1"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="2"></BoxView>
+
+        <BoxView  Grid.Row="4" Grid.Column="3"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="4" Grid.Column="4"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="5"></BoxView>
+
+        <BoxView  Grid.Row="4" Grid.Column="6"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="7"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="8"></BoxView>
+
+        <BoxView  Grid.Row="4" Grid.Column="9"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="4" Grid.Column="10"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="11"></BoxView>
+        
+        <BoxView  Grid.Row="4" Grid.Column="12"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="4" Grid.Column="13"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="14"></BoxView>
+
+        <BoxView  Grid.Row="4" Grid.Column="15"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="16"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="17"></BoxView>
+
+        <BoxView  Grid.Row="4" Grid.Column="18"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="4" Grid.Column="19"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="20"></BoxView>
+
+        <BoxView  Grid.Row="4" Grid.Column="21"></BoxView>
+        <BoxView Color="LightGray" Grid.Row="4" Grid.Column="22"></BoxView>
+        <BoxView  Grid.Row="4" Grid.Column="23"></BoxView>
+        <!--Конец-->
+
+    </Grid>
+
+</ContentPage>
