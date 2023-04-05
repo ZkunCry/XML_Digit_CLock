@@ -120,7 +120,7 @@ namespace testxamarin
             { gridlayout.Children[99],gridlayout.Children[100],gridlayout.Children[101]}
         },
         {
-            { gridlayout.Children[6], gridlayout.Children[10], gridlayout.Children[11]},
+            { gridlayout.Children[9], gridlayout.Children[10], gridlayout.Children[11]},
             {gridlayout.Children[33] , gridlayout.Children[34], gridlayout.Children[35]},
             { gridlayout.Children[57],gridlayout.Children[58],gridlayout.Children[59]},
             { gridlayout.Children[81], gridlayout.Children[82],gridlayout.Children[83]},
