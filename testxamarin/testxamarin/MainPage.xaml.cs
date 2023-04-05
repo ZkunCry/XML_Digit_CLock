@@ -91,7 +91,7 @@ namespace testxamarin
        private  bool OnTimer()
         {
             DateTime dateTime = DateTime.Now;
-            int hour = (dateTime.Hour + 11) % 12 + 1;
+            int hour = (dateTime.Hour);
             SetDotMatrix(0, hour / 10);
             SetDotMatrix(1, hour % 10);
             SetDotMatrix(2, dateTime.Minute / 10);
@@ -120,7 +120,7 @@ namespace testxamarin
             { gridlayout.Children[99],gridlayout.Children[100],gridlayout.Children[101]}
         },
         {
-            { gridlayout.Children[0], gridlayout.Children[10], gridlayout.Children[11]},
+            { gridlayout.Children[6], gridlayout.Children[10], gridlayout.Children[11]},
             {gridlayout.Children[33] , gridlayout.Children[34], gridlayout.Children[35]},
             { gridlayout.Children[57],gridlayout.Children[58],gridlayout.Children[59]},
             { gridlayout.Children[81], gridlayout.Children[82],gridlayout.Children[83]},
